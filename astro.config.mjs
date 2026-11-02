@@ -28,6 +28,10 @@ export default defineConfig({
           label: "Игра на сервере",
           items: ["features", "chat", "mods"],
         },
+        {
+          label: "Механики",
+          items: [{ autogenerate: { directory: "mechanics" } }],
+        },
         { label: "Как править вики", link: "/contributing/" },
       ],
     }),
