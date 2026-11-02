@@ -1,0 +1,18 @@
+{
+  "name": "minehouse-wiki",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "check": "astro check"
+  },
+  "packageManager": "pnpm@10.28.0",
+  "dependencies": {
+    "@astrojs/starlight": "0.42.8",
+    "astro": "7.4.4",
+    "sharp": "^0.35.5"
+  },
+  "private": true,
+  "type": "module"
+}

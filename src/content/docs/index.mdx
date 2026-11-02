@@ -1,0 +1,25 @@
+---
+title: MineHouse Вики
+description: "Всё о Vanilla+ сервере MineHouse: как зайти, правила, особенности сервера и моды."
+template: splash
+hero:
+  tagline: Vanilla+ сервер на Minecraft Java 26.3. Здесь собрано всё, что нужно знать игроку.
+  actions:
+    - text: Как зайти на сервер
+      link: /join/
+      icon: right-arrow
+    - text: Правила
+      link: /rules/
+      variant: minimal
+---
+
+import { CardGrid, LinkCard } from "@astrojs/starlight/components"
+
+<CardGrid>
+  <LinkCard title="Как зайти на сервер" href="/join/" description="Discord, адрес сервера и подтверждение входа кодом." />
+  <LinkCard title="Правила" href="/rules/" description="Без грифа, без читов, с уважением к соседям." />
+  <LinkCard title="Особенности сервера" href="/features/" description="Что поменяли по сравнению с ванильной игрой." />
+  <LinkCard title="Чат и голос" href="/chat/" description="Локальный чат, личка, Plasmo Voice и метки." />
+  <LinkCard title="Клиентские моды" href="/mods/" description="Что рекомендуем, что можно и что запрещено." />
+  <LinkCard title="Частые вопросы" href="/faq/" description="Короткие ответы на частые вопросы." />
+</CardGrid>

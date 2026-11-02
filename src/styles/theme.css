@@ -1,0 +1,17 @@
+/* Цвета сайта minehouse.pro: фиолетовый акцент на почти чёрном фоне. */
+:root:not([data-theme="light"]) {
+  --sl-color-accent-low: #2a1446;
+  --sl-color-accent: #a855f7;
+  --sl-color-accent-high: #e9d5ff;
+  --sl-color-black: #07050d;
+  --sl-color-gray-6: #1a1428;
+}
+:root[data-theme="light"] {
+  --sl-color-accent-low: #f3e8ff;
+  --sl-color-accent: #7e22ce;
+  --sl-color-accent-high: #3b0764;
+}
+/* Логотип белый, на светлой теме делаем его тёмным. */
+:root[data-theme="light"] .site-title img {
+  filter: invert(1);
+}
