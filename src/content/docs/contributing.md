@@ -46,6 +46,10 @@ description: Одна строка о том, что на странице.
   :::
   ```
 
+## Картинки рецептов
+
+Картинки крафтов рисует скрипт `scripts/recipes/render.py` (нужен Python и Pillow). Новый рецепт добавляется в списки `ITEMS` и `RECIPES` в начале скрипта, текстуры предметов кладутся в `scripts/recipes/textures`. После `python3 scripts/recipes/render.py` картинка появится в `src/assets/recipes/`, и её можно вставить на страницу как обычную картинку.
+
 Полный список возможностей разметки есть в [документации Starlight](https://starlight.astro.build/ru/guides/authoring-content/).
 
 ## Черновики
