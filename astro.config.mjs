@@ -15,7 +15,7 @@ export default defineConfig({
         { icon: "discord", label: "Discord", href: "https://discord.gg/gCYGxDzaCb" },
         { icon: "github", label: "GitHub", href: "https://github.com/P5ina/minehouse-wiki" },
       ],
-      editLink: { baseUrl: "https://github.com/P5ina/minehouse-wiki/edit/main/" },
+      editLink: { baseUrl: "https://minehouse.pro/wiki-edit/" },
       lastUpdated: true,
       customCss: ["./src/styles/theme.css"],
       sidebar: [
